@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: 2px solid #00ab9e;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f2f2f2;
+  font-size: 1rem;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+
+  width: 80rem;
+  /* height: 50rem; */
+  box-shadow: 0 0 2.4rem rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.yoga-img-box {
+  background-image: linear-gradient(to bottom, #00ab9d48, #09a89bd2),
+    url(../img/yoga\ picture.png);
+  background-position: center;
+  background-size: cover;
+  flex: 0 0 40%;
+  position: relative;
+}
+
+.yoga-text-box {
+  background-color: #fff;
+  flex: 1 0 60%;
+  padding: 6rem;
+}
+
+.yoga-logo {
+  height: 2.4rem;
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+}
+
+.yoga-sign-up {
+  width: 100%;
+}
+
+.yoga-heading {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1d1d1d;
+  margin-bottom: 0.6rem;
+}
+
+.yoga-heading-sub {
+  color: #676767;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+label {
+  display: block;
+  color: #444040e7;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  font-family: inherit;
+  width: 100%;
+  height: 4rem;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid #b6b6b6;
+  padding-left: 1.5rem;
+}
+
+/* input:focus {
+  border: 1px solid #00ab9e;
+} */
+
+input:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+input::placeholder {
+  font-family: inherit;
+  font-size: 1.1rem;
+  color: #b6b6b6;
+}
+
+.sign-up-btn:link,
+.sign-up-btn:visited {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00ab9e;
+  text-decoration: none;
+  height: 4rem;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+.google-btn:link,
+.google-btn:visited {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #b6b6b6;
+  height: 4rem;
+  margin-top: 1rem;
+  border-radius: 6px;
+  color: #1d1d1d;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  gap: 0.5rem;
+}
+
+.google-logo {
+  height: 2.4rem;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.login-text {
+  color: #676767;
+  font-weight: 400;
+}
+
+.login-link:link,
+.login-link:visited {
+  text-decoration: none;
+  color: #00ab9e;
+  font-weight: 600;
+
+  border: 2px solid transparent;
+}

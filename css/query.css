@@ -1,0 +1,33 @@
+@media (max-width: 67em) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 52em) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 40em) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 31em) {
+  html {
+    font-size: 35%;
+  }
+}
+
+@media (max-width: 24em) {
+  html {
+    font-size: 28%;
+  }
+
+  input {
+    font-size: inherit;
+  }
+}
