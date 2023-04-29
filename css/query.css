@@ -8,6 +8,10 @@
   html {
     font-size: 45%;
   }
+
+  input {
+    font-size: 1.5rem;
+  }
 }
 
 @media (max-width: 40em) {
@@ -17,17 +21,34 @@
 }
 
 @media (max-width: 31em) {
-  html {
-    font-size: 35%;
+  .container {
+    flex-direction: column;
+    width: 80%;
+    height: 95%;
+  }
+
+  .yoga-text-box {
+    padding: 5rem;
+    overflow: scroll;
   }
 }
 
 @media (max-width: 24em) {
-  html {
-    font-size: 28%;
+  .container {
+    width: 80%;
+    height: 90%;
+    flex-direction: column;
+  }
+
+  .yoga-text-box {
+    padding: 2rem;
+  }
+
+  .yoga-img-box {
+    background-position: center;
   }
 
   input {
-    font-size: inherit;
+    font-size: 1.5rem;
   }
 }
